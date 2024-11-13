@@ -47,11 +47,21 @@
       <div class="vw-100 row text-start p-5" style="flex-direction: column; justfiy-content: center; row-gap: 3%; height: 90%; background-image: url('background.jpg'); background-size: cover; background-repeat: no-repeat;">
         <div class="bg-light" style="height:100%; width: 30%; margin-left:35%; border-radius: 5%; padding: 10%;">
           <form>
-            <h4 style="margin-top: 10%; margin-bottom: 5%;">Sign Up</h4>
+            <h4 style="margin-bottom: 15%;">Sign Up</h4>
             <div class="mb-3">
-              <input type="text" class="form-control" id="fullname" placeholder="Full Name">
+              <input type="text" class="form-control" id="fullname" name="fullname" placeholder="Full Name">
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+            </div>
+            <div class="mb-3">
+              <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+            </div>
+            <div class="mb-3">
+              <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password">
             </div>
             <button type="submit" class="btn btn-primary">Create Account</button>
+            <div class="form-text">Already have an account? <a href="#" class="link-danger link-underline-light">Log in</a>
           </form>
         </div>
       </div>
